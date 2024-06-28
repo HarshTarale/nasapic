@@ -1,0 +1,65 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scrollbar-width: 0px;
+
+}
+.hero{
+    width:100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.482),rgba(0, 0, 0, 0.171),rgba(0, 0, 0, 0.482)),url(nasa-moon-10x10-poster-front.webp);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50vh;
+    padding-top:100px ;
+    overflow: scroll;
+
+    
+}
+.logo{
+    display: flex;
+    color: white;
+
+}
+.logo img{
+    width: 50px;
+}
+
+.content{
+    width: 80VW;
+    height: auto;
+    padding: 1vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 50px;
+    
+
+}
+
+.box{
+    min-width: 100px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+align-items: center;
+    flex-wrap: nowrap;
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.203);
+    box-shadow:0px 0px 10px rgba(255, 255, 255, 0.804);
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+
+
+}
+.box img{
+    width:  280px;
+    border-radius: 5px;
+}
+
